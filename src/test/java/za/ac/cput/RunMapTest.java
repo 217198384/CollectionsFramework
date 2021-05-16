@@ -8,7 +8,7 @@ class RunMapTest {
 RunMap map = new RunMap();
 
     @Test
-    void testAddCollection(){
+    void testAddMap(){
 
         map.addMap("Tisetso");
         map.addMap("Tisetso");
@@ -21,7 +21,7 @@ RunMap map = new RunMap();
 
     }
 
-    @Test void testRemoveList(){
+    @Test void testRemoveMap(){
         StudentAccount student1 = new StudentAccount("Tisetso", "Kotoana",217198384);
         StudentAccount student2 = new StudentAccount("Azola", "zaama",217187384);
         StudentAccount student3 = new StudentAccount("Axolile", "Nkundla",217198384);
@@ -39,7 +39,7 @@ RunMap map = new RunMap();
 
     }
 
-    @Test void testFindCollection(){
+    @Test void testFindMap(){
 
         map.addMap("Tisetso");
         map.addMap("Tisetso");
